@@ -8,6 +8,9 @@ dependencies:
   '@ponder/core':
     specifier: 0.3.9
     version: 0.3.9(@types/node@18.19.3)(typescript@5.3.3)(viem@1.19.15)
+  ts-retry:
+    specifier: ^4.2.5
+    version: 4.2.5
 
 devDependencies:
   '@types/node':
@@ -3121,6 +3124,10 @@ packages:
     dependencies:
       typescript: 5.3.3
     dev: true
+
+  /ts-retry@4.2.5:
+    resolution: {integrity: sha512-dFBa4pxMBkt/bjzdBio8EwYfbAdycEAwe0KZgzlUKKwU9Wr1WErK7Hg9QLqJuDDYJXTW4KYZyXAyqYKOdO/ehA==}
+    dev: false
 
   /tsconfck@3.0.3(typescript@5.3.3):
     resolution: {integrity: sha512-4t0noZX9t6GcPTfBAbIbbIU4pfpCwh0ueq3S4O/5qXI1VwK1outmxhe9dOiEWqMz3MW2LKgDTpqWV+37IWuVbA==}
